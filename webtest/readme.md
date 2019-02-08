@@ -1,4 +1,4 @@
 for web test
 
 
-https://github.com/yitao416/onlinePlots/blob/master/webtest/index.html
+https://yitao416.github.io/onlinePlots/webtest/index.html
