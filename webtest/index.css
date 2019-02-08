@@ -1,0 +1,98 @@
+body {
+    background-color: whitesmoke;
+
+}
+
+.main-div:after {
+    content: "";
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
+
+article {
+    /* float: left; */
+    margin: 0 auto;
+    padding: 20px;
+    width: 70%;
+    background-color: white;
+    height: max-content;
+}
+td {
+    vertical-align: top;
+    text-align: left;
+}
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.contentNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.contentNav li {
+    margin: 0;
+    float: left;
+}
+
+.contentNav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.contentNav li a:hover {
+    background-color: grey;
+}
+
+.navLinks {
+    width: 12%;
+    float: left;
+    font-size: 1em;
+    padding-right: 1em;
+}
+.navLinks ul{
+    list-style-type: none;
+    overflow: scroll;
+}
+
+.navLinks ul li{
+    margin: 10px;
+}
+
+.navLinks ul a:link {
+    text-decoration: none;
+}
+
+.right{
+    float: right;
+    width: 160px;
+    padding-right: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.ads{
+    width: 100px;
+    height: 40px;
+    padding: 7px;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: rgb(247, 244, 244);
+    overflow: scroll;
+}
+
+.paypal{
+    border: 0;
+}
